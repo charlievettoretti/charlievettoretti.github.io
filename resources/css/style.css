@@ -1,0 +1,443 @@
+@media only screen and (max-width: 710px){
+    h1.title {
+        font-size: 30px;
+        color: red;
+    }
+
+    h2.subs {
+        font-size: 1.125em;
+        color: red;
+    }
+
+    #python.box, #java.box, #c.box, #html.box, #css.box, #javascript.box, #sql.box, #bash.box, #matlab.box, #git.box, #github.box,
+    #linux.box, #react.box, #tensorflow.box, #unix.box, #verilog.box, #machine_lang.box {
+        height:100px;
+        width: 100px;
+        background-size: 100px 100px;
+    }
+}
+
+
+
+html,
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+header {
+    width: 100%;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 5px 5px;
+
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #8AAAE5;
+}
+
+ul {
+    text-align: center;
+    padding: 6px 0;
+}
+
+.navigation li {
+    border-color: black;
+    border-style: solid;
+    
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: darkgrey;
+    height: 20px;
+    width: 90x;
+    margin: auto 0;
+}
+
+.navigation li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation li:hover {
+    background-color: gray;
+    text-decoration: underline;
+}
+
+
+.banner {
+    background-image: url("../images/banner.png");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+h1 {
+    
+    color: lightgreen;
+    text-align: center;
+    /*padding-top: 40px;*/
+    font-size: 50px;
+    position: absolute;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /*
+    padding: 100px auto 10px auto;
+    */
+
+}
+
+.hali h2 {
+    color: pink;
+}
+
+.about_me_container {
+    display: flex;
+}
+
+.photo { /* 2406 x 3600 */
+    /* NEW w: 2406 h: 2862 */
+    height: 357px;
+    width: 300px;
+    margin-left: 80px;
+
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+
+.hali_reasons li {
+    border-color: pink;
+    border-style: solid;
+    font-family: cursive;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/04/12/07/heart-1179072_640.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding: 10px 30px;
+    display: block;
+    width: 50px;
+    background-position: left center;
+    
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    
+}
+
+
+
+div.container_languages {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    min-height: 700px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.container_languages a {
+    color: greenyellow;
+    font-weight: none;
+    text-decoration: none;
+}
+
+div.container_languages a:hover {
+    text-decoration: underline;
+}
+
+div.container_skills {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 50px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+div.box {
+    display: flex;
+    height: 210px;
+    width: 250px;
+    font-size: 20px;
+    border-style: none;
+    align-items: flex-end;
+    justify-content: center;
+    /*background-color: black;*/
+    background-color: #FCF6F5;
+    
+}
+
+#python {
+    background-image: url("../images/python_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#java {
+    background-image: url("../images/java_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#c {
+    background-image: url("../images/c_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#html {
+    background-image: url("../images/html_logo2.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#css {
+    background-image: url("../images/css_logo.png");
+    background-size: 155px 155px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#javascript {
+    background-image: url("../images/javascript_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sql {
+    background-image: url("../images/sql_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bash {
+    background-image: url("../images/bash_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#matlab {
+    background-image: url("../images/matlab_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#verilog {
+    background-image: url("../images/verilog_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#assem_lang {
+    background-image: url("../images/assem_lang_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+span {
+    background-color: rgba(128,128,128, 0.7);
+    width: 100%;
+    /*height: 20%;*/
+    min-height: 20px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    color: greenyellow;
+    box-shadow: 2px 5px 5px;
+}
+
+#git {
+    background-image: url("../images/git_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#github {
+    background-image: url("../images/github_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#linux {
+    background-image: url("../images/linux_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#react {
+    background-image: url("../images/react_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tensorflow {
+    background-image: url("../images/tensorflow_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#unix {
+    background-image: url("../images/unix_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#oop {
+    background-image: url("../images/oop_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dsa {
+    background-image: url("../images/dsa_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sys_p {
+    background-image: url("../images/sys_p_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cod {
+    background-image: url("../images/cod_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ai {
+    background-image: url("../images/ai_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#comp_a {
+    background-image: url("../images/comp_a_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#com_net {
+    background-image: url("../images/com_net_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sdm {
+    background-image: url("../images/sdm_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#os {
+    background-image: url("../images/os_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dm4cs {
+    background-image: url("../images/dm4cs_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tech_w {
+    background-image: url("../images/tech_w_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: rgb(128, 128, 128);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: greenyellow;
+
+}
+
+
+/*
+.languages > li {
+    display: inline-block;
+    border-style: solid;
+    height: 200px;
+    width: 225px;
+    padding: 3px;
+    margin: 50px;
+}
+*/
+@media only screen and (max-width: 410px){
+    div.container_languages, div.container_skills{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
