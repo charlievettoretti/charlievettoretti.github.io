@@ -14,7 +14,7 @@
 
     #python.box, #java.box, #c.box, #html.box, #css.box, #javascript.box, #sql.box, #bash.box, #matlab.box, #git.box, #github.box,
     #linux.box, #react.box, #tensorflow.box, #unix.box, #verilog.box, #assem_lang.box, #oop, #dsa, #sys_p, #cod, #ai, #comp_a, #com_net,
-    #sdm, #os, #dm4cs, #tech_w {
+    #sdm, #os, #dm4cs, #tech_w, #fullstack {
         height:100px;
         width: 100px;
         background-size: 100px 100px;
@@ -190,6 +190,7 @@ div.sleeve {
     /*justify-content: center;*/
     align-content: start;
     box-shadow: 2px 5px 5px;
+    overflow-y: auto;
 }
 
 div.sleeve:hover {
@@ -491,6 +492,48 @@ div.box:hover span {
 
 #tech_w {
     background-image: url("../images/tech_w_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fullstack {
+    background-image: url("../images/fullstack_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nodejs {
+    background-image: url("../images/nodejs_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#express {
+    background-image: url("../images/express_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#postgresql {
+    background-image: url("../images/postgresql_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#passportjs {
+    background-image: url("../images/passportjs_logo.png");
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#redux {
+    background-image: url("../images/redux_logo.png");
     background-size: 200px 200px;
     background-position: center;
     background-repeat: no-repeat;
