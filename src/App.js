@@ -1,10 +1,23 @@
 import logo from './logo.svg';
+import NavBar from './components/NavBar';
+import HomePage from './components/HomePage';
 import './App.css';
 
 function App() {
   return (
+    <div>
+      <NavBar />
+      <HomePage />
+    </div>
+  );
+}
+
+/*
+function App() {
+  return (
     <div className="App">
       <header className="App-header">
+        <navBar />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -21,5 +34,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;

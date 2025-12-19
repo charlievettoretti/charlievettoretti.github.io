@@ -1,0 +1,11 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    /*
+    background: linear-gradient(to bottom, #e2f1ff 0%, #ffffff 50%);*/
+    background-color: white;
+}

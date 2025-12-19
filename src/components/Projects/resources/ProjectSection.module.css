@@ -1,0 +1,35 @@
+
+.ProjectGrid {
+    display: grid;
+    margin: 10px 20px; /* top/bottom left/right */
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 28px;
+    align-items: start;
+}
+
+
+
+
+.ProjectCard {
+    background: #1e1e1e;
+    border-radius: 6px;
+    padding: 18px 18px 14px;
+    box-shadow: 0 10px 18px rgba(0,0,0,0.35);
+    margin-bottom: 10px;
+    border-left: 4px solid #4f46e5;
+}
+
+.title {
+    text-align: center;
+    color: #f9fafb;
+}
+
+
+.tech {
+    text-align: center;
+    color: #9ca3af;
+}
+
+.bullet {
+    color: white;
+}
