@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './resources/HomePage.module.css';
 import ProjectSection from './Projects/ProjectSection';
 import ProgrammingLanguages from './ProgrammingLanguages/ProgrammingLanguages';
+import SoftwareSkills from './SoftwareSkills/SoftwareSkills';
 
 function HomePage() {
     return (
@@ -11,6 +12,7 @@ function HomePage() {
             </div>
             <ProjectSection />
             <ProgrammingLanguages />
+            <SoftwareSkills />
         </div>
     );
 };

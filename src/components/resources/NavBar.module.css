@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 28px 80px;
+  /*padding: 28px 80px;*/         /* top/bottom left/right */
+  padding-left: 80px;
+  padding-right: 80px;
   background-color: #111;
   color: white;
   position: sticky;
@@ -10,12 +12,26 @@
   z-index: 10;
 }
 
+.tag {
+  display: flex;
+  gap: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .logo {
+  height: 50px;
+}
+
+.name {
   font-size: 20px;
   font-weight: bold;
+  align-self: center;
 }
 
 .navLinks {
+  padding-top: 28px;
+  padding-bottom: 28px;
   list-style: none;
   display: flex;
   gap: 25px;
