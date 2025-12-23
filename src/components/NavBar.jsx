@@ -3,6 +3,10 @@ import styles from './resources/NavBar.module.css';
 import logo from './resources/images/cv_logo_lb-final.png';
 import logo2 from './resources/images/cv_logo_final.png'; // stretched
 
+import LinkedinLogo from './resources/images/linkedin_logo.png';
+import GitHubLogo from './resources/images/github_icon_2.svg';
+import ResumeLogo from './resources/images/resume_icon.png';
+
 function NavBar() {
 
     const navBarItems = ['About Me', 'Projects', 'Programming Language', 
@@ -24,6 +28,27 @@ function NavBar() {
           </li>
         ))}
       </ul>
+      <div className={styles.links}>
+        <a 
+          href="https://www.linkedin.com/in/charles-vettoretti-601902234/" 
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my Linkedin"
+        >
+          <img src={LinkedinLogo} className={styles.logo_link} alt="Linkedin" />
+        </a>
+        <a 
+          href="https://github.com/charlievettoretti" 
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my GitHub"
+        >
+          <img src={GitHubLogo} className={styles.logo_link} alt='GitHub' />
+        </a>
+        <a>
+          <img src={ResumeLogo} className={styles.logo_link} alt='Resume' />
+        </a>
+      </div>
     </nav>
   );
 }

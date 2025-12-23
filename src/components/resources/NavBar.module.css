@@ -48,3 +48,19 @@
   color: #6cc9ff;
   cursor: pointer;
 }
+
+.links {
+  display: flex;
+  gap: 25px;
+}
+
+.logo_link {
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.logo_link:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  opacity: 0.8;
+}

@@ -66,7 +66,7 @@ function ProgrammingLanguages() {
     ];
 
     return (
-        <section id="programminglanguage">
+        <section className={styles.background} id="programminglanguage">
             <h3>Programming Languages:</h3>
             <div className={styles.container}>
                 {programLanguages.map((p) => (

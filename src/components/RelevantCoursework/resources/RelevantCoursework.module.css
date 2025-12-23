@@ -1,11 +1,7 @@
 .background {
-    background: linear-gradient(
-        135deg,
-        #0F172A,
-        #002F6C
-    );
-    color: white;
+    background-color: black;
 }
+
 
 .container {
     margin-top: 10px;
@@ -13,8 +9,7 @@
     margin-right: 80px;
     margin-bottom: 70px;
     padding: 20px 20px;
-    /*background-color: #4A4A4A;*/
-
+    background-color: #5682B1;
     gap: 50px;
     display: flex;
     flex-direction: row;

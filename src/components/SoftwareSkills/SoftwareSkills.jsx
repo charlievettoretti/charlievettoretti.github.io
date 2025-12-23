@@ -63,10 +63,9 @@ function SoftwareSkills() {
     ];
 
     return (
-        <section>
+        <section className={styles.background}>
             <h3>Software Skills:</h3>
             <div className={styles.container}>
-                <SkillsCard name={Skills[5].name} icon={Skills[5].icon} />
                 {Skills.map((skill) => (
                     <SkillsCard name={skill.name} icon={skill.icon} />
                 ))}

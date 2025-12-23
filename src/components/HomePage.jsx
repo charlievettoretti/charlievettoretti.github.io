@@ -3,6 +3,7 @@ import styles from './resources/HomePage.module.css';
 import ProjectSection from './Projects/ProjectSection';
 import ProgrammingLanguages from './ProgrammingLanguages/ProgrammingLanguages';
 import SoftwareSkills from './SoftwareSkills/SoftwareSkills';
+import RelevantCoursework from './RelevantCoursework/RelevantCoursework'
 
 function HomePage() {
     return (
@@ -13,6 +14,7 @@ function HomePage() {
             <ProjectSection />
             <ProgrammingLanguages />
             <SoftwareSkills />
+            <RelevantCoursework />
         </div>
     );
 };

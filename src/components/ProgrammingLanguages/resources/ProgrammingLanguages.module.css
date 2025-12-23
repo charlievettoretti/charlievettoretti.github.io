@@ -1,3 +1,10 @@
+.background {
+    /*background-color: #050E3C;
+    background-color: #002455;*/
+    /*background-color: #EFECE3; */
+    /*background-color: #4A4a4A; gray */
+    background-color: #0E0E11
+}
 
 .container {
     margin-top: 10px;
@@ -5,11 +12,18 @@
     margin-right: 80px;
     margin-bottom: 70px;
     padding: 20px 20px;
-    background-color: #4A4A4A;
+    /*background-color: #4A4A4A; gray*/
+    /*background-color: #002455; dark blue */
+    background-color: #16181D;
+
     gap: 50px;
     display: flex;
     flex-direction: row;
     align-content: space-between;
     justify-content: space-around;
     flex-wrap: wrap;
+    /*box-shadow: 2px 5px 5px  red;*/
 }
+
+/*background-color: #EFECE3; */
+/*background-color: #DC0000; */
