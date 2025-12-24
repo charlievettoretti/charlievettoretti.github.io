@@ -1,5 +1,12 @@
 .background {
-    background-color: black;
+    /*background-color: black;*/
+    /*background: linear-gradient(
+        135deg,
+        #0F172A,
+        #002F6C
+    );*/
+    background: transparent;
+    border-top: 5px solid rgba(255,255,255, 0.5);
 }
 
 
@@ -9,7 +16,7 @@
     margin-right: 80px;
     margin-bottom: 70px;
     padding: 20px 20px;
-    background-color: #5682B1;
+    /*background-color: #5682B1;*/
     gap: 50px;
     display: flex;
     flex-direction: row;

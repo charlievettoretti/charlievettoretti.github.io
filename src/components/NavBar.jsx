@@ -34,19 +34,26 @@ function NavBar() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visit my Linkedin"
+          className={styles.wrapper}
         >
           <img src={LinkedinLogo} className={styles.logo_link} alt="Linkedin" />
+          <span className={styles.popup_label}>Linkedin</span>
         </a>
         <a 
           href="https://github.com/charlievettoretti" 
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visit my GitHub"
+          className={styles.wrapper}
         >
           <img src={GitHubLogo} className={styles.logo_link} alt='GitHub' />
+          <span className={styles.popup_label}>GitHub</span>
         </a>
-        <a>
+        <a
+          className={styles.wrapper}
+        >
           <img src={ResumeLogo} className={styles.logo_link} alt='Resume' />
+          <span className={styles.popup_label}>Resume PDF</span>
         </a>
       </div>
     </nav>

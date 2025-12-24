@@ -7,5 +7,12 @@
 .background {
     /*
     background: linear-gradient(to bottom, #e2f1ff 0%, #ffffff 50%);*/
-    background-color: white;
+    /*background-color: white;*/
+    background: linear-gradient(
+        135deg,
+        #0F172A,
+        #002F6C
+    );
+    min-height: 100vh;
+
 }

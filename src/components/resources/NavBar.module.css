@@ -64,3 +64,30 @@
   transform: translateY(-2px);
   opacity: 0.8;
 }
+
+.wrapper {
+  position: relative;
+}
+
+.popup_label {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  opacity: 0;
+  font-size: 14px;
+  background-color: #0E0E11;
+  border-radius: 6px;
+  padding: 6px 8px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
+  white-space: nowrap;
+
+}
+
+.wrapper:hover .popup_label {
+  opacity: 1;
+
+}
+

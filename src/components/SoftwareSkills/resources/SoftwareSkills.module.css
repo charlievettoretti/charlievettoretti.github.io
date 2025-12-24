@@ -1,10 +1,11 @@
 .background {
-    background: linear-gradient(
+    /*background: linear-gradient(
         135deg,
         #0F172A,
         #002F6C
-    );
-    color: white;
+    );*/
+    color: #FCF6F5;  
+    border-top: 5px solid rgba(255,255,255, 0.5);
 }
 
 .container {
@@ -14,6 +15,7 @@
     margin-bottom: 70px;
     padding: 20px 20px;
     /*background-color: #4A4A4A;*/
+    background: rgba(15, 23, 42, 0.55); 
 
     gap: 50px;
     display: flex;

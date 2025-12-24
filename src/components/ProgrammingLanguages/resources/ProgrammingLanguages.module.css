@@ -3,7 +3,9 @@
     background-color: #002455;*/
     /*background-color: #EFECE3; */
     /*background-color: #4A4a4A; gray */
-    background-color: #0E0E11
+    /*background-color: #0E0E11 charcoal */
+    /*background: transparent;*/
+    border-top: 5px solid rgba(255,255,255, 0.5);
 }
 
 .container {
@@ -14,7 +16,9 @@
     padding: 20px 20px;
     /*background-color: #4A4A4A; gray*/
     /*background-color: #002455; dark blue */
-    background-color: #16181D;
+    /*background-color: #16181D;*/
+    /*background-color: #09082a;*/
+    background: rgba(15, 23, 42, 0.55);   
 
     gap: 50px;
     display: flex;
