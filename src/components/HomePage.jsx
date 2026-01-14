@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './resources/HomePage.module.css';
+import RelevantExperience from './RelevantExperience/RelevantExperience';
 import ProjectSection from './Projects/ProjectSection';
 import ProgrammingLanguages from './ProgrammingLanguages/ProgrammingLanguages';
 import SoftwareSkills from './SoftwareSkills/SoftwareSkills';
-import RelevantCoursework from './RelevantCoursework/RelevantCoursework'
+import RelevantCoursework from './RelevantCoursework/RelevantCoursework';
 
 function HomePage() {
     return (
@@ -11,6 +12,7 @@ function HomePage() {
             <div className={styles.aboutMe}>
                 <h3>About Me:</h3>
             </div>
+            <RelevantExperience />
             <ProjectSection />
             <ProgrammingLanguages />
             <SoftwareSkills />
