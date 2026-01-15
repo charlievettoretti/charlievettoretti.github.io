@@ -69,9 +69,9 @@ function RelevantCoursework() {
     ];
 
     return (
-        <section class={styles.background}>
+        <section id='relevantcoursework' className={styles.background}>
             <h3>Relevant Coursework:</h3>
-            <div class={styles.container}>
+            <div className={styles.container}>
                 {courses.map((course) => (
                     <SkillsCard name={course.name} icon={course.icon} />
                 ))}

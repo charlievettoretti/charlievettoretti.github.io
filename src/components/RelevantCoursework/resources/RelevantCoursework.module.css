@@ -1,3 +1,7 @@
+#relevantcoursework {
+    scroll-margin-top: 50px;
+}
+
 .background {
     /*background-color: black;*/
     /*background: linear-gradient(
@@ -5,6 +9,7 @@
         #0F172A,
         #002F6C
     );*/
+    scroll-margin-top: 50px;
     background: transparent;
     border-top: 5px solid rgba(255,255,255, 0.5);
 }

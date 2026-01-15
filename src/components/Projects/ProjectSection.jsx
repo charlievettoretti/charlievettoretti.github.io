@@ -75,7 +75,7 @@ function ProjectSection() {
     ];
 
     return (
-        <section id="projects">
+        <section id="projects" className={styles.background}>
             <h3>Projects:</h3>
             <div className={styles.ProjectGrid}>
                 {projects.map((p) => (

@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   /*padding: 28px 80px;*/         /* top/bottom left/right */
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
   background-color: #111;
   color: white;
   position: sticky;
@@ -34,7 +34,7 @@
   padding-bottom: 28px;
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 20px;
 }
 
 .navLinks a {

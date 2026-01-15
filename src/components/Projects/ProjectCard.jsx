@@ -19,9 +19,11 @@ function ProjectCard({ title, tech = [], bullets = [] }) {
                     </li>
                 ))}
             </ul>
+            {/*
             <div className={styles.cardFooter}>
                 <a className={styles.cardLink}>GitHub: </a>
             </div>
+            */}
         </div>
     );
 };

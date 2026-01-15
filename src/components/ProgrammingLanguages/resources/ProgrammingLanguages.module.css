@@ -6,6 +6,7 @@
     /*background-color: #0E0E11 charcoal */
     /*background: transparent;*/
     border-top: 5px solid rgba(255,255,255, 0.5);
+    scroll-margin-top: 50px;
 }
 
 .container {

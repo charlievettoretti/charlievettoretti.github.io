@@ -9,7 +9,7 @@ import ResumeLogo from './resources/images/resume_icon.png';
 
 function NavBar() {
 
-    const navBarItems = ['About Me', 'Projects', 'Programming Language', 
+    const navBarItems = ['About Me', 'Relevant Experience', 'Projects', 'Programming Languages', 
         'Software Skills', 'Relevant Coursework'];
     
 

@@ -5,6 +5,9 @@ section {
     padding: 22px 24px 50px;
 }
 
+.background {
+    scroll-margin-top: 50px;
+}
 
 
 .ProjectGrid {

@@ -63,7 +63,7 @@ function SoftwareSkills() {
     ];
 
     return (
-        <section className={styles.background}>
+        <section id='softwareskills' className={styles.background}>
             <h3>Software Skills:</h3>
             <div className={styles.container}>
                 {Skills.map((skill) => (
