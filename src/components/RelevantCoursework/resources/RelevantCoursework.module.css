@@ -28,4 +28,5 @@
     align-content: space-between;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: rgba(15, 23, 42, 0.55);   
 }

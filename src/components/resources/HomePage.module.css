@@ -16,3 +16,35 @@
     min-height: 100vh;
 
 }
+
+.aboutMe {
+    border-top: 5px solid rgba(255,255,255, 0.5);
+    color: #FCF6F5;
+    padding: 22px 24px 50px;
+    scroll-margin-top: 50px;
+}
+
+.aboutMeGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutMeText {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.9;
+    background-color: rgba(0,0,0, 0.15);
+    border-radius: 18px;
+}
+
+.photo {
+    padding-left: 40px;
+    height: 500px;
+    border-radius: 18px;
+}
